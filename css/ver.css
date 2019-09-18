@@ -1,0 +1,47 @@
+
+body{
+    margin: 1rem;
+    font-family: Helvetica;
+}
+
+.cont{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 30px;   
+}
+
+.titulo{
+    text-align: center;
+}
+
+.separador{
+   height: 2px;
+   background-color: gray;
+}
+
+.foto{
+    padding: 1rem;
+}
+
+.foto img{
+    width: 100%;
+    height: auto;
+}
+
+.cuerpo{
+    padding: 1rem;
+    font-size: 20px;
+}
+
+.cuerpo a{
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    background-color: #1B396A;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.cuerpo a:hover{
+    background-color: rgb(51, 92, 158); 
+}

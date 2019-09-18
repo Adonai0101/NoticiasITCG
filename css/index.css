@@ -1,0 +1,114 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: Helvetica;
+    margin: 1rem;
+   
+}
+
+header img{
+    width: 100%;
+    margin-bottom: 10px; 
+}
+
+.cont form{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.cont div{
+    border: solid black 5px;
+}
+
+.completo{
+    grid-column-start: 1;
+    grid-column-end: 3;  
+}
+
+.cont-titulo{
+    text-align: center;
+    padding: 1rem; 
+}
+
+.cont-titulo input{
+    font-size: 18px;
+    text-align: center;
+}
+
+.cont-subirFoto{
+    text-align: center;
+    padding: 1rem;
+    
+    
+}
+
+.cont-subirFoto img{
+    width: 100%;
+}
+.cont-subirFoto input{
+    padding-top:1rem; 
+}
+
+.cont-noticia{
+    text-align: center;
+    padding: 1rem;
+}
+
+.cont-noticia textarea{
+    margin-top: 1rem;
+}
+
+.cont-enlaces{
+    text-align: center;
+}
+.cont-enlaces input{
+    margin: 1rem;
+    font-size: 18px;
+    text-align: center;
+}
+
+.cont-botones{
+    text-align: center;
+    padding: 1rem;
+}
+
+.cont-botones input{
+    margin: .5rem;
+    padding: 10px;
+    font-size: 18px;
+
+    background-color: #1B396A;
+    color: white;
+    text-align: center;
+}
+
+.cont-botones input:hover{
+    background-color: rgb(43, 76, 129);
+    cursor: pointer;
+}
+
+.cont-botones a{
+    margin: .5rem;
+    padding: 10px;
+    font-size: 18px;
+    background-color: rgb(149, 29, 29);
+    text-decoration: none;
+    color: white;
+}
+
+.cont-botones a:hover{
+    background-color: rgb(155, 50, 50);
+}
+
+
+.cont-botones button{
+    background-color: rgb(43, 76, 129);
+    color:  white;
+    margin: .5rem;
+    padding: 10px;
+    font-size: 18px;
+}
+
